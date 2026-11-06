@@ -1,6 +1,6 @@
 import math 
 
-# round up = math,ciel 
+# round up = math.ceil
 # round down = math.floor
 
 n=int(input())
@@ -34,4 +34,5 @@ for i in range(len(arr)):
         arr[i]=arr[i]/100.00
 
 for i in range(len(arr)):
-    print(arr[i])
+    # print(arr[i])
+    print(f"{arr[i]:.2f}")
