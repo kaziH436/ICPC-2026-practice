@@ -18,8 +18,6 @@ def game():
         diffyellow=[]
             
         for i in range(1, len(n)-1, 2):
-            # 1627 63 for red
-            # 1506 128 for yellow
             diffr=(n[i]-144)**2 + (n[i+1]-84)**2
             diffred.append(diffr)
             
@@ -32,7 +30,6 @@ def game():
             for i in range(len(diffred)):
                 if diffred[i] < min(diffyellow):
                     pointsr+=1
-            # elif min(diffyellow) < min(diffred):    
             for i in range(len(diffyellow)):
                 if diffyellow[i] < min(diffred):
                     pointsy+=1

@@ -1,8 +1,5 @@
 # https://open.kattis.com/problems/fairytale
 
-# 4 
-# each : 1-10
-
 def melody():
     t=int(input())
     for i in range(t):
@@ -23,12 +20,10 @@ def melody():
                 
                 
                 if low<=p<=high: 
-                    # You don't need to check all previously encountered intervals manually. A set can do that for you.
                     if (low,high) in s:
                         continue
                     else:
                         strings+=1
-                        # avoid dupe counting
                         s.add((low,high))
                     
         print(strings)

@@ -15,11 +15,6 @@ def pushups():
             stress+=p**2/ti[i] # syms of units of stress
     
         print(stress)
-    # n breaks 
-    # each i lasts for ti -> s
-    # x pushups
-    # x^2/s stress
-    # derivative: -4x/s**3
     
 
 pushups()

@@ -11,21 +11,6 @@ requests=int(input())
 # to add a key and value
 initial[0]=initial.get(0, 0)+requests*3
 
-# to remove a key and value 
-
-# to remove a value
-
-# to get a value 
-# i iterates through keys
-# initial.get(i,0), if no value than 0
-
-# to get a key
-
-
-# n= last val # in the last loop
-# intially sam has {7,5,3}
-# after requesting 3*5 = 15 additional 0 values so {7,5,3,0,0...0}
-
 for i in range(10):
     count=initial.get(i,0) # key 
     pairs=count//2

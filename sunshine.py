@@ -1,3 +1,4 @@
+# https://open.kattis.com/problems/walkingonsunshine
 arr=list(map(int, input().split()))
 n=arr[0]
 xc=arr[1]
